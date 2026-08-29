@@ -1,0 +1,47 @@
+/* ==========================================================================
+   ACADEMIA CORPO EM MOVIMENTO FITNESS — CLEAN WHITE DESIGN SYSTEM
+   Fundo Branco #FFFFFF · Azul Claro Esportivo #0284C7 · Vermelho #E50914
+   ========================================================================== */
+:root {
+  --bg-body: #ffffff;
+  --bg-surface: #f8fafc;
+  --bg-card: #ffffff;
+
+  --red: #E50914;
+  --red-hover: #c4060f;
+  --red-soft: #fff1f2;
+  --red-glow: rgba(229, 9, 20, 0.25);
+
+  --blue: #0284c7;
+  --blue-vibrant: #0ea5e9;
+  --blue-soft: #f0f9ff;
+  --blue-border: #bae6fd;
+  --blue-glow: rgba(14, 165, 233, 0.2);
+
+  --text-main: #0f172a;
+  --text-body: #334155;
+  --text-muted: #64748b;
+  --text-dim: #94a3b8;
+  --text-white: #ffffff;
+
+  --border: #e2e8f0;
+  --border-light: #f1f5f9;
+
+  --font-display: 'Anton', Impact, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-body);
+  color: var(--text-body);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}

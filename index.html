@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Academia Corpo em Movimento Fitness | Martinho Campos - MG</title>
+  <meta name="description" content="Academia Corpo em Movimento Fitness em Martinho Campos - MG. Musculação, Personal Trainer, estrutura completa e orientação com Prof. Júnior (CREF 017945-G/MG)." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://corpoemmovimentofitness.com.br/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="business.business" />
+  <meta property="og:title" content="Academia Corpo em Movimento Fitness | Martinho Campos - MG" />
+  <meta property="og:description" content="Treine, evolua e transforme sua rotina na Academia Corpo em Movimento Fitness. Musculação e personal trainer em Martinho Campos - MG." />
+  <meta property="og:image" content="logo.jpg" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <link rel="icon" href="logo.jpg" type="image/jpeg" />
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExerciseGym",
+    "name": "Academia Corpo em Movimento Fitness",
+    "image": "logo.jpg",
+    "telephone": "+5537999314630",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Bom Despacho, 31, Centro",
+      "addressLocality": "Martinho Campos",
+      "addressRegion": "MG",
+      "postalCode": "35606-000",
+      "addressCountry": "BR"
+    },
+    "sameAs": [
+      "https://www.instagram.com/acadcorpoemovimento/",
+      "https://www.facebook.com/CorpoEmMovimentoFitness/"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "32"
+    }
+  }
+  </script>
+
+  <!-- Google Fonts: Anton (títulos editoriais imponentes) + Plus Jakarta Sans (interface e leitura nítida) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       CORPO EM MOVIMENTO FITNESS — CLEAN WHITE PREMIUM DESIGN SYSTEM
+       Fundo Totalmente Branco #FFFFFF · Azul Claro Esportivo #0284C7 · Vermelho #E50914
+       ========================================================================== */
+    :root {
+      --bg-body: #ffffff;
+      --bg-surface: #f8fafc;
+      --bg-surface-2: #f1f5f9;
+      --bg-card: #ffffff;
+
+      --red: #E50914;
+      --red-hover: #c4060f;
+      --red-soft: #fff1f2;
+      --red-glow: rgba(229, 9, 20, 0.25);
+
+      --blue: #0284c7;
+      --blue-vibrant: #0ea5e9;
+      --blue-soft: #f0f9ff;
+      --blue-border: #bae6fd;
+      --blue-glow: rgba(14, 165, 233, 0.2);
+
+      --text-main: #0f172a;
+      --text-body: #334155;
+      --text-muted: #64748b;
+      --text-dim: #94a3b8;
+      --text-white: #ffffff;
+
+      --border: #e2e8f0;
+      --border-light: #f1f5f9;
+
+      --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.04);
+      --shadow-md: 0 10px 25px -5px rgba(15, 23, 42, 0.06), 0 8px 10px -6px rgba(15, 23, 42, 0.02);
+      --shadow-lg: 0 20px 40px -10px rgba(15, 23, 42, 0.08), 0 8px 16px -4px rgba(2, 132, 199, 0.05);
+
+      --font-display: 'Anton', Impact, sans-serif;
+      --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+      --radius-sm: 6px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-pill: 9999px;
+      --ease: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+      background-color: var(--bg-body);
+    }
+
+    body {
+      background-color: var(--bg-body);
+      color: var(--text-body);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.25s var(--ease);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    /* Tipografia de Destaque */
+    h1, h2, h3, h4 {
+      font-family: var(--font-display);
+      text-transform: uppercase;
+      letter-spacing: 0.01em;
+      line-height: 0.98;
+      color: var(--text-main);
+    }
+
+    .accent-red { color: var(--red); }
+    .accent-blue { color: var(--blue); }
+
+    .ghost-number {
+      font-family: var(--font-display);
+      font-size: clamp(3.2rem, 7vw, 5.5rem);
+      color: transparent;
+      -webkit-text-stroke: 1.5px var(--blue-border);
+      line-height: 0.9;
+      display: block;
+    }
+
+    .eyebrow-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.76rem;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--blue);
+      background: var(--blue-soft);
+      padding: 6px 14px;
+      border-radius: var(--radius-pill);
+      border: 1px solid var(--blue-border);
+      margin-bottom: 20px;
+    }
+
+    .eyebrow-tag.red {
+      color: var(--red);
+      background: var(--red-soft);
+      border-color: #fecdd3;
+    }
+
+    /* Botões */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 16px 32px;
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border-radius: var(--radius-sm);
+      border: 1.5px solid transparent;
+      transition: all 0.25s var(--ease);
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .btn:active {
+      transform: scale(0.98);
+    }
+
+    .btn-red {
+      background: var(--red);
+      color: #ffffff;
+      box-shadow: 0 8px 24px var(--red-glow);
+    }
+
+    .btn-red:hover {
+      background: var(--red-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 14px 30px var(--red-glow);
+    }
+
+    .btn-outline {
+      background: #ffffff;
+      color: var(--text-main);
+      border-color: var(--border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--blue);
+      color: var(--blue);
+      transform: translateY(-2px);
+    }
+
+    .btn-instagram {
+      background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      color: #ffffff;
+      box-shadow: 0 8px 20px rgba(220, 39, 67, 0.25);
+    }
+
+    .btn-instagram:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(220, 39, 67, 0.4);
+    }
+
+    /* ==========================================================================
+       NAVBAR SUPERIOR LIMPA E FIXA
+       ========================================================================== */
+    .site-navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 80px;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      transition: all 0.3s var(--ease);
+    }
+
+    .site-navbar.scrolled {
+      height: 72px;
+      box-shadow: var(--shadow-sm);
+      background: rgba(255, 255, 255, 0.98);
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    .nav-brand-box {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-logo-circle {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid var(--blue);
+      padding: 2px;
+      background: #ffffff;
+      box-shadow: 0 2px 8px var(--blue-glow);
+      flex-shrink: 0;
+    }
+
+    .nav-logo-circle img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .nav-brand-title {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      letter-spacing: 0.04em;
+      color: var(--blue);
+      line-height: 1;
+    }
+
+    .nav-brand-title span {
+      color: var(--red);
+    }
+
+    .nav-menu-group {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .nav-links-list {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .nav-item-link {
+      font-size: 0.84rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-main);
+      position: relative;
+      padding: 6px 0;
+      transition: color 0.2s var(--ease);
+    }
+
+    .nav-item-link::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2.5px;
+      background: var(--red);
+      transition: width 0.25s var(--ease);
+    }
+
+    .nav-item-link:hover {
+      color: var(--red);
+    }
+
+    .nav-item-link:hover::after {
+      width: 100%;
+    }
+
+    .nav-cta-btn {
+      padding: 12px 24px;
+      font-size: 0.84rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      background: var(--red);
+      color: #ffffff;
+      border-radius: var(--radius-sm);
+      box-shadow: 0 4px 14px var(--red-glow);
+      transition: all 0.25s var(--ease);
+    }
+
+    .nav-cta-btn:hover {
+      background: var(--red-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px var(--red-glow);
+    }
+
+    .nav-mobile-toggle {
+      display: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 6px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .nav-mobile-toggle span {
+      width: 20px;
+      height: 2px;
+      background: var(--text-main);
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    .nav-mobile-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-mobile-toggle.open span:nth-child(2) { opacity: 0; }
+    .nav-mobile-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Mobile Drawer */
+    .mobile-menu-drawer {
+      position: fixed;
+      top: 80px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #ffffff;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      padding: 36px 32px 40px;
+      gap: 20px;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-10px);
+      transition: all 0.3s var(--ease);
+      border-top: 1px solid var(--border);
+    }
+
+    .mobile-menu-drawer.open {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .mobile-drawer-item {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      letter-spacing: 0.04em;
+      color: var(--text-main);
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .mobile-drawer-item:hover {
+      color: var(--red);
+    }
+
+    /* ==========================================================================
+       HERO SECTION — FUNDO BRANCO
+       ========================================================================== */
+    .hero-section {
+      position: relative;
+      padding-top: 140px;
+      padding-bottom: 90px;
+      background: radial-gradient(circle at 90% 15%, rgba(14, 165, 233, 0.08) 0%, transparent 45%),
+                  radial-gradient(circle at 10% 85%, rgba(225, 29, 72, 0.05) 0%, transparent 40%),
+                  #ffffff;
+      overflow: hidden;
+    }
+
+    .hero-layout-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .hero-title-text {
+      font-size: clamp(3.2rem, 6vw, 5rem);
+      line-height: 0.95;
+      margin-bottom: 20px;
+      color: var(--text-main);
+    }
+
+    .hero-lead-paragraph {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 520px;
+      line-height: 1.65;
+      margin-bottom: 36px;
+    }
+
+    .hero-btn-group {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* Foto Hero com Moldura e Badges */
+    .hero-media-wrapper {
+      position: relative;
+    }
+
+    .hero-photo-card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      border: 6px solid #ffffff;
+      aspect-ratio: 4/5;
+      background: var(--bg-surface);
+    }
+
+    .hero-photo-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 25%;
+    }
+
+    .hero-badge-floating {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 14px 18px;
+      box-shadow: var(--shadow-md);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      z-index: 2;
+    }
+
+    .badge-google {
+      top: 24px;
+      right: -16px;
+    }
+
+    .badge-location {
+      bottom: 28px;
+      left: -20px;
+    }
+
+    /* ==========================================================================
+       4. BLOCO DE INFORMAÇÕES DO CLUBE COM DADOS REAIS DO INSTAGRAM / CREF
+       ========================================================================== */
+    .club-metrics-bar {
+      padding: 50px 0;
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .metrics-grid-four {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .metric-card-box {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 28px 24px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: all 0.3s var(--ease);
+      position: relative;
+    }
+
+    .metric-card-box:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--blue-border);
+    }
+
+    .metric-huge-number {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem, 4.5vw, 4rem);
+      line-height: 0.95;
+      color: var(--text-main);
+      display: block;
+    }
+
+    .metric-subtitle-label {
+      font-size: 0.76rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--blue);
+      display: block;
+      margin-top: 4px;
+    }
+
+    /* ==========================================================================
+       5. NOSSA ACADEMIA (CLUB PROFILE)
+       ========================================================================== */
+    .club-profile-section {
+      padding: 110px 0;
+      background: #ffffff;
+    }
+
+    .club-profile-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .profile-media-stack {
+      position: relative;
+    }
+
+    .profile-photo-main {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      border: 4px solid #ffffff;
+      width: 90%;
+      aspect-ratio: 4/5;
+    }
+
+    .profile-photo-main img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .profile-badge-owner {
+      position: absolute;
+      bottom: -28px;
+      right: 0;
+      background: #ffffff;
+      border: 1.5px solid var(--blue-border);
+      border-radius: var(--radius-md);
+      padding: 18px 24px;
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .profile-badge-owner .circle-icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: var(--blue);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+
+    .profile-text-content h2 {
+      font-size: clamp(2.4rem, 5vw, 3.8rem);
+      margin-bottom: 20px;
+    }
+
+    .profile-text-content p {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 24px;
+    }
+
+    .profile-cref-pills {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .cref-tag {
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 6px 12px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-body);
+    }
+
+    /* ==========================================================================
+       6. SEÇÃO DE EXPERIÊNCIA (ENERGIA · DISCIPLINA · EVOLUÇÃO)
+       ========================================================================== */
+    .experience-section {
+      padding: 100px 0;
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .experience-header {
+      max-width: 640px;
+      margin-bottom: 60px;
+    }
+
+    .experience-header h2 {
+      font-size: clamp(2.4rem, 5vw, 3.8rem);
+      margin-bottom: 10px;
+    }
+
+    .experience-header p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    .experience-cols-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+    }
+
+    .experience-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 36px 28px;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.3s var(--ease);
+      position: relative;
+    }
+
+    .experience-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--blue-border);
+    }
+
+    .experience-card .ghost-number {
+      margin-bottom: 10px;
+    }
+
+    .experience-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      letter-spacing: 0.04em;
+      color: var(--text-main);
+      margin-bottom: 10px;
+    }
+
+    .experience-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* ==========================================================================
+       7. SERVIÇOS (EDITORIAL EM BLOCOS LIMPOS)
+       ========================================================================== */
+    .services-editorial-section {
+      padding: 110px 0;
+      background: #ffffff;
+    }
+
+    .services-blocks-flex {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    .service-row-card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: center;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .service-row-card:nth-child(even) .service-media-side {
+      order: -1;
+    }
+
+    .service-media-side {
+      position: relative;
+      aspect-ratio: 16/11;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+    }
+
+    .service-media-side img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .service-copy-side .ghost-number {
+      margin-bottom: 8px;
+    }
+
+    .service-copy-side h3 {
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      margin-bottom: 14px;
+    }
+
+    .service-copy-side p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      line-height: 1.65;
+      margin-bottom: 26px;
+    }
+
+    /* ==========================================================================
+       8. ESTRUTURA / GALERIA (FOTOS 100% FUNCIONAIS E TESTADAS)
+       ========================================================================== */
+    .gallery-structure-section {
+      padding: 110px 0;
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border);
+    }
+
+    .gallery-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 24px;
+      margin-bottom: 44px;
+      flex-wrap: wrap;
+    }
+
+    .gallery-header-row h2 {
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+    }
+
+    .gallery-bento-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr 1fr;
+      grid-template-rows: 250px 250px;
+      gap: 16px;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+      background: #e2e8f0;
+      transition: all 0.3s var(--ease);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s var(--ease);
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.06);
+    }
+
+    .gallery-overlay-tag {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 40%, rgba(15, 23, 42, 0.88) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 20px;
+      color: #ffffff;
+    }
+
+    .gallery-pill {
+      align-self: flex-start;
+      padding: 4px 10px;
+      border-radius: var(--radius-pill);
+      background: var(--blue-vibrant);
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .gallery-pill.red {
+      background: var(--red);
+    }
+
+    .gallery-overlay-tag h4 {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: #ffffff;
+    }
+
+    .g1 { grid-column: 1; grid-row: 1 / 3; }
+    .g2 { grid-column: 2 / 4; grid-row: 1; }
+    .g3 { grid-column: 2; grid-row: 2; }
+    .g4 { grid-column: 3; grid-row: 2; }
+
+    /* ==========================================================================
+       9. AVALIAÇÕES GOOGLE 5.0 (DEPOIMENTOS REAIS)
+       ========================================================================== */
+    .reviews-section {
+      padding: 110px 0;
+      background: #ffffff;
+    }
+
+    .reviews-header-block {
+      margin-bottom: 48px;
+    }
+
+    .reviews-header-block .stars {
+      color: #f59e0b;
+      font-size: 1.3rem;
+      letter-spacing: 2px;
+      margin-bottom: 6px;
+    }
+
+    .reviews-header-block .title-big {
+      font-family: var(--font-display);
+      font-size: clamp(2.6rem, 5vw, 4rem);
+    }
+
+    .reviews-editorial-layout {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 36px;
+    }
+
+    .review-spotlight-card {
+      background: var(--blue-soft);
+      border: 1.5px solid var(--blue-border);
+      border-radius: var(--radius-lg);
+      padding: 44px 36px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .review-quote-large {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.45;
+      margin-bottom: 28px;
+    }
+
+    .review-mini-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.3s var(--ease);
+    }
+
+    .review-mini-card:hover {
+      border-color: var(--blue-border);
+      transform: translateY(-3px);
+    }
+
+    /* ==========================================================================
+       10. LOCALIZAÇÃO
+       ========================================================================== */
+    .location-section {
+      padding: 110px 0;
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border);
+    }
+
+    .location-grid-duo {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 40px;
+      align-items: stretch;
+    }
+
+    .location-card-content {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .map-frame-box {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+      min-height: 380px;
+    }
+
+    .map-frame-box iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 380px;
+      border: 0;
+    }
+
+    /* ==========================================================================
+       12. CTA FINAL
+       ========================================================================== */
+    .final-cta-section {
+      padding: 90px 0;
+      background: radial-gradient(circle at 10% 50%, rgba(225, 29, 72, 0.05) 0%, transparent 40%),
+                  radial-gradient(circle at 90% 50%, rgba(14, 165, 233, 0.06) 0%, transparent 40%),
+                  #ffffff;
+      border-top: 1px solid var(--border);
+      text-align: center;
+    }
+
+    .final-cta-box {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 60px 30px;
+      max-width: 860px;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .final-cta-box h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2.6rem, 5.5vw, 4.2rem);
+      color: var(--text-main);
+      margin-bottom: 14px;
+    }
+
+    .final-cta-box p {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 480px;
+      margin: 0 auto 32px;
+    }
+
+    /* Footer */
+    footer {
+      background: #ffffff;
+      border-top: 1px solid var(--border);
+      padding: 60px 0 30px;
+    }
+
+    .footer-flex-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+      padding-bottom: 40px;
+    }
+
+    .footer-bottom-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: var(--text-dim);
+    }
+
+    /* WhatsApp Flutuante */
+    .wa-float-btn {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 900;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #25d366;
+      color: #ffffff;
+      padding: 13px 18px;
+      border-radius: var(--radius-pill);
+      box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+      transition: all 0.3s var(--ease);
+    }
+
+    .wa-float-btn:hover {
+      transform: translateY(-4px) scale(1.03);
+      box-shadow: 0 16px 32px rgba(37, 211, 102, 0.5);
+    }
+
+    .wa-float-btn svg {
+      width: 22px;
+      height: 22px;
+      fill: #ffffff;
+    }
+
+    .wa-float-btn span {
+      font-weight: 800;
+      font-size: 0.86rem;
+    }
+
+    /* Modal Lightbox */
+    .lightbox-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(8px);
+      z-index: 1200;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s;
+    }
+
+    .lightbox-modal.open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .lightbox-modal img {
+      max-width: min(900px, 90vw);
+      max-height: 80vh;
+      border-radius: var(--radius-sm);
+      border: 3px solid #ffffff;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    }
+
+    .lightbox-close-btn {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Scroll Reveal */
+    [data-reveal] {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.8s var(--ease), transform 0.8s var(--ease);
+    }
+
+    [data-reveal].in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsividade */
+    @media (max-width: 1040px) {
+      .nav-links-list { display: none; }
+      .nav-mobile-toggle { display: flex; }
+      .metrics-grid-four { grid-template-columns: repeat(2, 1fr); }
+      .hero-layout-grid, .club-profile-grid, .location-grid-duo, .reviews-editorial-layout {
+        grid-template-columns: 1fr;
+      }
+      .service-row-card { grid-template-columns: 1fr; }
+      .service-row-card:nth-child(even) .service-media-side { order: 0; }
+      .experience-cols-grid { grid-template-columns: 1fr; }
+      .gallery-bento-grid { grid-template-columns: 1fr; grid-template-rows: auto; }
+      .g1, .g2, .g3, .g4 { grid-column: auto; grid-row: auto; }
+    }
+
+    @media (max-width: 640px) {
+      .metrics-grid-four { grid-template-columns: 1fr; }
+      .wa-float-btn span { display: none; }
+      .wa-float-btn { padding: 13px; bottom: 20px; right: 20px; }
+      .badge-google, .badge-location { display: none; }
+      .hero-title-text { font-size: 3.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===================== NAVBAR SUPERIOR LIMPA & FIXA ===================== -->
+  <header class="site-navbar" id="siteNavbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-brand-box">
+        <div class="nav-logo-circle">
+          <img src="logo.jpg" alt="Logo Academia Corpo em Movimento Fitness" />
+        </div>
+        <div class="nav-brand-title">
+          CORPO EM <span>MOVIMENTO</span>
+        </div>
+      </a>
+
+      <div class="nav-menu-group">
+        <nav class="nav-links-list" aria-label="Navegação principal">
+          <a href="#academia" class="nav-item-link">Academia</a>
+          <a href="#experiencia" class="nav-item-link">Experiência</a>
+          <a href="#servicos" class="nav-item-link">Serviços</a>
+          <a href="#estrutura" class="nav-item-link">Estrutura</a>
+          <a href="#avaliacoes" class="nav-item-link">Avaliações</a>
+          <a href="#localizacao" class="nav-item-link">Localização</a>
+        </nav>
+
+        <a id="navCtaWhatsapp" href="https://wa.me/5537999314630?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Academia%20Corpo%20em%20Movimento%20Fitness%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener" class="nav-cta-btn">
+          Começar
+        </a>
+
+        <button class="nav-mobile-toggle" id="navBurger" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-menu-drawer" id="mobileDrawer">
+    <a href="#academia" class="mobile-drawer-item">Academia</a>
+    <a href="#experiencia" class="mobile-drawer-item">Experiência</a>
+    <a href="#servicos" class="mobile-drawer-item">Serviços</a>
+    <a href="#estrutura" class="mobile-drawer-item">Estrutura</a>
+    <a href="#avaliacoes" class="mobile-drawer-item">Avaliações</a>
+    <a href="#localizacao" class="mobile-drawer-item">Localização</a>
+    <a id="drawerCtaWhatsapp" href="https://wa.me/5537999314630?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Academia%20Corpo%20em%20Movimento%20Fitness%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener" class="btn btn-red" style="margin-top: 10px; width: 100%;">
+      Começar Agora
+    </a>
+  </div>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="hero-section" id="inicio">
+    <div class="container">
+      <div class="hero-layout-grid">
+        <div class="hero-text-col">
+          <div class="eyebrow-tag" data-reveal>
+            <span>⚡ Musculação & Personal em Martinho Campos - MG</span>
+          </div>
+
+          <h1 class="hero-title-text" data-reveal>
+            SEU LIMITE É O <span class="accent-red">COMEÇO</span> DA SUA <span class="accent-blue">EVOLUÇÃO</span>.
+          </h1>
+
+          <p class="hero-lead-paragraph" data-reveal>
+            Treine com equipamentos modernos, orientação qualificada (CREF 017945-G/MG) e um ambiente motivador feito para você alcançar saúde, força e bem-estar.
+          </p>
+
+          <div class="hero-btn-group" data-reveal>
+            <a id="heroCtaWhatsapp" href="https://wa.me/5537999314630?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Academia%20Corpo%20em%20Movimento%20Fitness%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener" class="btn btn-red">
+              <span>Quero Começar Hoje →</span>
+            </a>
+            <a href="https://www.instagram.com/acadcorpoemovimento/" target="_blank" rel="noopener" class="btn btn-outline" style="gap: 8px;">
+              <span>📷 @acadcorpoemovimento</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-media-wrapper" data-reveal>
+          <div class="hero-photo-card">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop" alt="Treino de Musculação" />
+            
+            <div class="hero-badge-floating badge-google">
+              <span style="font-size: 1.4rem;">⭐</span>
+              <div>
+                <b style="color: var(--text-main); font-size: 0.95rem;">5,0 no Google</b>
+                <span style="font-size: 0.74rem; color: var(--text-muted); display: block;">32+ Avaliações Reais</span>
+              </div>
+            </div>
+
+            <div class="hero-badge-floating badge-location">
+              <span style="font-size: 1.4rem;">📸</span>
+              <div>
+                <b style="color: var(--text-main); font-size: 0.95rem;">6.3K+ Seguidores</b>
+                <span style="font-size: 0.74rem; color: var(--text-muted); display: block;">@acadcorpoemovimento</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 4. BLOCO DE INFORMAÇÕES DO CLUBE COM DADOS DO INSTAGRAM ===================== -->
+  <div class="club-metrics-bar">
+    <div class="container metrics-grid-four">
+      <div class="metric-card-box" data-reveal>
+        <span class="metric-huge-number">5,0</span>
+        <span class="metric-subtitle-label">Google Maps (32 Avaliações)</span>
+      </div>
+
+      <div class="metric-card-box" data-reveal>
+        <span class="metric-huge-number">6.3K+</span>
+        <span class="metric-subtitle-label">Seguidores no Instagram</span>
+      </div>
+
+      <div class="metric-card-box" data-reveal>
+        <span class="metric-huge-number" style="font-size: clamp(2.4rem, 4vw, 3.4rem); letter-spacing: 0.04em;">CREF</span>
+        <span class="metric-subtitle-label">017945-G · Prof. Júnior</span>
+      </div>
+
+      <div class="metric-card-box" data-reveal>
+        <span class="metric-huge-number">MG</span>
+        <span class="metric-subtitle-label">Martinho Campos — Centro</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== 5. NOSSA ACADEMIA ===================== -->
+  <section class="club-profile-section" id="academia">
+    <div class="container club-profile-grid">
+      <div class="profile-media-stack" data-reveal>
+        <div class="profile-photo-main">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop" alt="Ambiente de treinamento" />
+        </div>
+        <div class="profile-badge-owner">
+          <div class="circle-icon">CM</div>
+          <div>
+            <b style="font-size: 1rem; color: var(--text-main); display: block;">Prof. Júnior (CEO)</b>
+            <span style="font-size: 0.78rem; color: var(--blue); font-weight: 700;">@treinadorjuninho · CREF 017945-G/MG</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-text-content" data-reveal>
+        <div class="eyebrow-tag"><span>01 · Nossa Academia</span></div>
+        <h2>UM ESPAÇO PARA<br>VOCÊ <span class="accent-red">EVOLUIR</span>.</h2>
+        <p>
+          A <strong>Academia Corpo em Movimento Fitness</strong> oferece um ambiente completo, pensado para quem busca treinar, evoluir e cuidar da saúde sob a liderança do Prof. Júnior e uma equipe dedicada no Centro de Martinho Campos - MG.
+        </p>
+
+        <div class="profile-cref-pills">
+          <span class="cref-tag">🎖️ CREF Físico: 017945-G/MG</span>
+          <span class="cref-tag">🏢 CREF Jurídico: 1170-PJ/MG</span>
+          <span class="cref-tag">📍 CEP: 35606-000</span>
+        </div>
+
+        <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+          <a id="aboutCtaWhatsapp" href="https://wa.me/5537999314630?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Academia%20Corpo%20em%20Movimento%20Fitness%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener" class="btn btn-red">
+            <span>Falar no WhatsApp</span>
+          </a>
+          <a href="https://www.instagram.com/acadcorpoemovimento/" target="_blank" rel="noopener" class="btn btn-instagram" style="gap: 8px;">
+            <span>Seguir no Instagram</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 6. SEÇÃO DE EXPERIÊNCIA ===================== -->
+  <section class="experience-section" id="experiencia">
+    <div class="container">
+      <div class="experience-header" data-reveal>
+        <div class="eyebrow-tag"><span>02 · Filosofia & Estilo</span></div>
+        <h2>MAIS DO QUE TREINAR.</h2>
+        <p>Uma experiência para o seu dia a dia.</p>
+      </div>
+
+      <div class="experience-cols-grid">
+        <div class="experience-card" data-reveal>
+          <span class="ghost-number">01</span>
+          <h3>ENERGIA</h3>
+          <p>Um ambiente estimulante que eleva sua disposição diária, combate o sedentarismo e revigora seu corpo e sua mente.</p>
+        </div>
+
+        <div class="experience-card" data-reveal>
+          <span class="ghost-number">02</span>
+          <h3>DISCIPLINA</h3>
+          <p>Constância como base da transformação. Treinos estruturados para tornar a atividade física um hábito sustentável.</p>
+        </div>
+
+        <div class="experience-card" data-reveal>
+          <span class="ghost-number">03</span>
+          <h3>EVOLUÇÃO</h3>
+          <p>Cada repetição conta. Acompanhamento atento para garantir que você supere seus limites com segurança e técnica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 7. SERVIÇOS ===================== -->
+  <section class="services-editorial-section" id="servicos">
+    <div class="container">
+      <div class="eyebrow-tag" data-reveal><span>03 · Nossos Serviços</span></div>
+      <h2 style="font-size: clamp(2.4rem, 5vw, 3.8rem); margin-bottom: 44px;" data-reveal>
+        MODALIDADES PARA O SEU <span class="accent-blue">OBJETIVO</span>.
+      </h2>
+
+      <div class="services-blocks-flex">
+        <!-- 01: Musculação -->
+        <div class="service-row-card" data-reveal>
+          <div class="service-copy-side">
+            <span class="ghost-number">01</span>
+            <h3>MUSCULAÇÃO</h3>
+            <p>Força. Constância. Evolução — treinos focados no desenvolvimento muscular, queima calórica e condicionamento integral.</p>
+            <a id="servMuscWhatsapp" href="https://wa.me/5537999314630?text=Ol%C3%A1%21%20Gostaria%20de%20consultar%20planos%20de%20Muscula%C3%A7%C3%A3o." target="_blank" rel="noopener" class="btn btn-outline">Consultar Planos</a>
+          </div>
+          <div class="service-media-side">
+            <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=1200&auto=format&fit=crop" alt="Musculação" />
+          </div>
+        </div>
+
+        <!-- 02: Personal Trainer -->
+        <div class="service-row-card" data-reveal>
+          <div class="service-copy-side">
+            <span class="ghost-number" style="-webkit-text-stroke-color: #fecdd3;">02</span>
+            <h3>PERSONAL TRAINER</h3>
+            <p>Treino direcionado para seus objetivos — acompanhamento individualizado com profissionais qualificados para potencializar e acelerar seus resultados.</p>
+            <a id="servPersWhatsapp" href="https://wa.me/5537999314630?text=Ol%C3%A1%21%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20Personal%20Trainer." target="_blank" rel="noopener" class="btn btn-red">Falar com Personal</a>
+          </div>
+          <div class="service-media-side">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1200&auto=format&fit=crop" alt="Personal Trainer" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 8. ESTRUTURA / GALERIA ===================== -->
+  <section class="gallery-structure-section" id="estrutura">
+    <div class="container">
+      <div class="gallery-header-row" data-reveal>
+        <div>
+          <div class="eyebrow-tag"><span>04 · Instalações</span></div>
+          <h2>CONHEÇA NOSSO <span class="accent-red">ESPAÇO</span>.</h2>
+        </div>
+        <p style="color: var(--text-muted); max-width: 380px;">Estrutura pensada para oferecer biomecânica eficiente, conforto e segurança durante cada série.</p>
+      </div>
+
+      <div class="gallery-bento-grid" data-reveal>
+        <div class="gallery-item g1" data-caption="Área de Musculação Completa">
+          <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1200&auto=format&fit=crop" alt="Área de Musculação" />
+          <div class="gallery-overlay-tag">
+            <span class="gallery-pill">Musculação</span>
+            <h4>Aparelhos Guiados & Articulados</h4>
+          </div>
+        </div>
+
+        <div class="gallery-item g2" data-caption="Ambiente Amplo e Arejado">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop" alt="Ambiente de Treino" />
+          <div class="gallery-overlay-tag">
+            <span class="gallery-pill red">Ambiente</span>
+            <h4>Espaço Amplo e Ventilado</h4>
+          </div>
+        </div>
+
+        <div class="gallery-item g3" data-caption="Setor de Pesos Livres e Halteres">
+          <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1000&auto=format&fit=crop" alt="Pesos Livres" />
+          <div class="gallery-overlay-tag">
+            <span class="gallery-pill">Halteres</span>
+            <h4>Pesos Livres & Barras</h4>
+          </div>
+        </div>
+
+        <div class="gallery-item g4" data-caption="Treinamento Funcional">
+          <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=1000&auto=format&fit=crop" alt="Treino Funcional" />
+          <div class="gallery-overlay-tag">
+            <span class="gallery-pill red">Funcional</span>
+            <h4>Resistência & Mobilidade</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 9. AVALIAÇÕES ===================== -->
+  <section class="reviews-section" id="avaliacoes">
+    <div class="container">
+      <div class="reviews-header-block" data-reveal>
+        <div class="stars">★★★★★</div>
+        <div class="title-big">5,0 <span style="font-size: 1.1rem; color: var(--text-muted); letter-spacing: 0.1em; font-family: var(--font-body); font-weight: 700;">NO GOOGLE · 32 AVALIAÇÕES</span></div>
+      </div>
+
+      <div class="reviews-editorial-layout">
+        <!-- Depoimento Principal -->
+        <div class="review-spotlight-card" data-reveal>
+          <div>
+            <div style="font-family: var(--font-display); font-size: 3.5rem; color: var(--blue); line-height: 0.7; margin-bottom: 16px;">“</div>
+            <p class="review-quote-large">Melhor atendimento e estrutura da região centro-oeste, venham conferir!</p>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <div style="width: 44px; height: 44px; border-radius: 50%; background: var(--blue); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800;">FS</div>
+            <div>
+              <b style="color: var(--text-main); display: block;">Franklin Santos</b>
+              <span style="font-size: 0.78rem; color: var(--text-muted);">Avaliação 5 Estrelas no Google</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimentos Secundários -->
+        <div class="reviews-sub-col">
+          <div class="review-mini-card" data-reveal>
+            <div style="color: #f59e0b; margin-bottom: 6px;">★★★★★</div>
+            <p style="font-size: 0.95rem; color: var(--text-body); margin-bottom: 10px;">"A melhor academia da cidade profissionais muito educados"</p>
+            <b style="font-size: 0.85rem; color: var(--text-main);">Mercia Regina Oliveira Silva Rodrigues</b>
+          </div>
+
+          <div class="review-mini-card" data-reveal>
+            <div style="color: #f59e0b; margin-bottom: 6px;">★★★★★</div>
+            <p style="font-size: 0.95rem; color: var(--text-body); margin-bottom: 10px;">"Academia top, proprietário Júnior muito atencioso e educado"</p>
+            <b style="font-size: 0.85rem; color: var(--text-main);">Fabiano Gandra</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 10. LOCALIZAÇÃO ===================== -->
+  <section class="location-section" id="localizacao">
+    <div class="container">
+      <div class="location-grid-duo">
+        <div class="location-card-content" data-reveal>
+          <div>
+            <div class="eyebrow-tag"><span>05 · Localização</span></div>
+            <h2 style="font-size: clamp(2.2rem, 5vw, 3.8rem); margin-bottom: 24px;">VENHA NOS<br><span class="accent-red">CONHECER</span>.</h2>
+
+            <div style="display: flex; gap: 14px; margin-bottom: 20px;">
+              <div style="width: 42px; height: 42px; border-radius: 8px; background: var(--bg-surface); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">📍</div>
+              <div>
+                <b style="color: var(--text-main); display: block;">Endereço</b>
+                <span style="color: var(--text-muted); font-size: 0.92rem;">R. Bom Despacho, 31 — Centro<br>Martinho Campos - MG, 35606-000</span>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 14px; margin-bottom: 28px;">
+              <div style="width: 42px; height: 42px; border-radius: 8px; background: var(--bg-surface); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">📞</div>
+              <div>
+                <b style="color: var(--text-main); display: block;">Telefone / WhatsApp</b>
+                <span style="color: var(--text-muted); font-size: 0.92rem;">(37) 99931-4630</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a id="mapsRouteBtn" href="https://www.google.com/maps/dir/?api=1&destination=R.%20Bom%20Despacho,%2031,%20Centro,%20Martinho%20Campos%20-%20MG,%2035606-000" target="_blank" rel="noopener" class="btn btn-red">
+              <span>Como Chegar →</span>
+            </a>
+            <a id="locWhatsappBtn" href="https://wa.me/5537999314630?text=Ol%C3%A1%21%20Gostaria%20de%20visitar%20a%20academia." target="_blank" rel="noopener" class="btn btn-outline">
+              <span>Falar Conosco</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="map-frame-box" data-reveal>
+          <iframe
+            src="https://www.google.com/maps?q=R.+Bom+Despacho,+31,+Centro,+Martinho+Campos+-+MG,+35606-000&output=embed"
+            title="Localização da Academia Corpo em Movimento Fitness no Google Maps"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 12. CTA FINAL ===================== -->
+  <section class="final-cta-section" id="contato">
+    <div class="container">
+      <div class="final-cta-box" data-reveal>
+        <div class="eyebrow-tag red"><span>Vamos Treinar</span></div>
+        <h2>SEU PRÓXIMO NÍVEL<br>COMEÇA <span class="accent-red">AGORA.</span></h2>
+        <p>Dê o primeiro passo para a sua evolução física e bem-estar.</p>
+        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+          <a id="finalCtaWhatsapp" href="https://wa.me/5537999314630?text=Ol%C3%A1%21%20Quero%20come%C3%A7ar%20a%20treinar%20na%20Academia%20Corpo%20em%20Movimento%20Fitness." target="_blank" rel="noopener" class="btn btn-red" style="font-size: 0.95rem; padding: 18px 36px;">
+            <span>Começar Agora →</span>
+          </a>
+          <a id="finalCtaWhatsapp2" href="https://wa.me/5537999314630?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20a%20Academia." target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.95rem; padding: 18px 32px;">
+            <span>Falar com a Academia</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-flex-row">
+        <div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+            <img src="logo.jpg" alt="Logo" style="width: 38px; height: 38px; border-radius: 50%;" />
+            <b style="font-family: var(--font-display); font-size: 1.3rem; color: var(--blue);">CORPO EM MOVIMENTO FITNESS</b>
+          </div>
+          <p style="color: var(--text-muted); font-size: 0.9rem; max-width: 320px; margin-bottom: 12px;">
+            Saúde, musculação e personal trainer no Centro de Martinho Campos - MG.
+          </p>
+          <div style="font-size: 0.8rem; color: var(--text-muted);">
+            <span>🎖️ CREF: 017945-G/MG · PJ: 1170-PJ/MG</span>
+          </div>
+        </div>
+
+        <div>
+          <h5 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 14px; color: var(--text-main);">Navegação</h5>
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; color: var(--text-muted);">
+            <a href="#inicio">Início</a>
+            <a href="#academia">Academia</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#estrutura">Estrutura</a>
+            <a href="#avaliacoes">Avaliações</a>
+          </div>
+        </div>
+
+        <div>
+          <h5 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 14px; color: var(--text-main);">Redes & Contato</h5>
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; color: var(--text-muted);">
+            <span>📍 R. Bom Despacho, 31 — Centro</span>
+            <span>📞 (37) 99931-4630</span>
+            <a href="https://www.instagram.com/acadcorpoemovimento/" target="_blank" rel="noopener" style="color: var(--blue); font-weight: 700;">
+              📷 @acadcorpoemovimento
+            </a>
+            <a href="https://www.facebook.com/CorpoEmMovimentoFitness/" target="_blank" rel="noopener" style="color: var(--blue); font-weight: 700;">
+              📘 facebook.com/CorpoEmMovimentoFitness
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span>© 2026 Academia Corpo em Movimento Fitness. Todos os direitos reservados.</span>
+        <span>⭐ 5,0 no Google (32 avaliações) · 6.3K+ no Instagram</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== WHATSAPP FLUTUANTE ===================== -->
+  <a id="waFloat" class="wa-float-btn" href="https://wa.me/5537999314630?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Academia%20Corpo%20em%20Movimento%20Fitness." target="_blank" rel="noopener" aria-label="Falar conosco no WhatsApp">
+    <svg viewBox="0 0 32 32">
+      <path d="M16.001 2.667c-7.363 0-13.334 5.97-13.334 13.333 0 2.353.616 4.66 1.787 6.687L2.667 29.333l6.79-1.75a13.27 13.27 0 0 0 6.544 1.75h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.905-9.425a13.24 13.24 0 0 0-9.434-3.908zm0 24.4h-.005a11.06 11.06 0 0 1-5.636-1.543l-.404-.24-4.03 1.038 1.075-3.927-.264-.403a11.05 11.05 0 0 1-1.7-5.892c0-6.115 4.978-11.093 11.098-11.093 2.965 0 5.75 1.155 7.845 3.253a11.02 11.02 0 0 1 3.247 7.848c-.002 6.116-4.98 11.093-11.226 10.959zm6.086-8.297c-.334-.167-1.97-.972-2.276-1.083-.306-.11-.528-.167-.75.167-.222.333-.86 1.083-1.056 1.305-.194.222-.389.25-.723.083-.334-.167-1.408-.519-2.683-1.654-.992-.885-1.663-1.978-1.858-2.312-.194-.334-.02-.514.146-.68.15-.15.334-.39.5-.584.167-.194.222-.334.334-.556.11-.222.055-.417-.028-.584-.083-.167-.75-1.807-1.028-2.474-.271-.65-.546-.563-.75-.573-.194-.01-.417-.012-.64-.012-.222 0-.583.083-.888.417-.306.334-1.166 1.14-1.166 2.78s1.194 3.226 1.36 3.448c.167.222 2.35 3.588 5.694 5.03.796.344 1.417.55 1.901.703.799.254 1.526.218 2.101.132.641-.096 1.97-.805 2.248-1.583.278-.778.278-1.445.194-1.584-.083-.14-.306-.222-.64-.389z"/>
+    </svg>
+    <span>Fale conosco</span>
+  </a>
+
+  <!-- ===================== LIGHTBOX DA ESTRUTURA ===================== -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Visualizador de imagens">
+    <button class="lightbox-close-btn" id="lightboxClose" aria-label="Fechar">✕</button>
+    <img id="lightboxImg" src="" alt="Imagem ampliada da estrutura" />
+  </div>
+
+  <!-- ===================== SCRIPTS ===================== -->
+  <script>
+  (function(){
+    "use strict";
+
+    const academyInfo = {
+      phoneDisplay: "(37) 99931-4630",
+      phoneRaw: "37999314630",
+      whatsapp: "5537999314630",
+      mapsQuery: "R. Bom Despacho, 31, Centro, Martinho Campos - MG, 35606-000",
+      instagram: "acadcorpoemovimento",
+      instagramUrl: "https://www.instagram.com/acadcorpoemovimento/",
+      facebookUrl: "https://www.facebook.com/CorpoEmMovimentoFitness/"
+    };
+
+    const waMsg = encodeURIComponent("Olá! Vim pelo site da Academia Corpo em Movimento Fitness e gostaria de saber mais informações sobre horários e planos.");
+    const waUrl = `https://wa.me/${academyInfo.whatsapp}?text=${waMsg}`;
+    const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(academyInfo.mapsQuery)}`;
+
+    /* Atualização dos Links */
+    const waButtons = ['waFloat', 'navCtaWhatsapp', 'drawerCtaWhatsapp', 'heroCtaWhatsapp', 'aboutCtaWhatsapp', 'servMuscWhatsapp', 'servPersWhatsapp', 'locWhatsappBtn', 'finalCtaWhatsapp', 'finalCtaWhatsapp2'];
+    waButtons.forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.href = waUrl;
+    });
+
+    const mapsBtn = document.getElementById('mapsRouteBtn');
+    if (mapsBtn) mapsBtn.href = mapsUrl;
+
+    /* Navbar scrolled */
+    const navbar = document.getElementById('siteNavbar');
+    const handleScroll = () => {
+      if (navbar) navbar.classList.toggle('scrolled', window.scrollY > 20);
+    };
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    /* Mobile Menu */
+    const burger = document.getElementById('navBurger');
+    const mobileMenu = document.getElementById('mobileDrawer');
+    function toggleMobileMenu(open) {
+      const isOpen = open !== undefined ? open : !mobileMenu.classList.contains('open');
+      mobileMenu.classList.toggle('open', isOpen);
+      burger.classList.toggle('open', isOpen);
+      burger.setAttribute('aria-expanded', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    }
+    if (burger && mobileMenu) {
+      burger.addEventListener('click', () => toggleMobileMenu());
+      mobileMenu.querySelectorAll('.mobile-drawer-item').forEach(a => {
+        a.addEventListener('click', () => toggleMobileMenu(false));
+      });
+    }
+
+    /* Scroll Reveal */
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const revealEls = document.querySelectorAll('[data-reveal]');
+    if (reduceMotion) {
+      revealEls.forEach(el => el.classList.add('in'));
+    } else {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      revealEls.forEach(el => io.observe(el));
+    }
+
+    /* Lightbox Modal */
+    const modal = document.getElementById('lightboxModal');
+    const modalImg = document.getElementById('lightboxImg');
+    const closeBtn = document.getElementById('lightboxClose');
+
+    document.querySelectorAll('.gallery-item').forEach(card => {
+      card.addEventListener('click', () => {
+        const img = card.querySelector('img');
+        if (img && modal && modalImg) {
+          modalImg.src = img.src;
+          modalImg.alt = img.alt || '';
+          modal.classList.add('open');
+          document.body.style.overflow = 'hidden';
+        }
+      });
+    });
+
+    function closeLightbox() {
+      if (modal) {
+        modal.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+    }
+    if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
+    if (modal) modal.addEventListener('click', (e) => { if (e.target === modal) closeLightbox(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+
+  })();
+  </script>
+</body>
+</html>
